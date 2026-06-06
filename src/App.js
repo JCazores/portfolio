@@ -66,9 +66,9 @@ function App() {
     const fetchAll = async () => {
       try {
         const [d, s, r] = await Promise.all([
-          fetch('http://127.0.0.1:8000/api/telemetry/ddss').then(res => res.json()),
-          fetch('http://127.0.0.1:8000/api/telemetry/smartmed').then(res => res.json()),
-          fetch('http://127.0.0.1:8000/api/telemetry/rosaflora').then(res => res.json()),
+          fetch('https://portfolio-backend-production-70ff.up.railway.app/api/telemetry/ddss').then(res => res.json()),
+          fetch('https://portfolio-backend-production-70ff.up.railway.app/api/telemetry/smartmed').then(res => res.json()),
+          fetch('https://portfolio-backend-production-70ff.up.railway.app/api/telemetry/rosaflora').then(res => res.json()),
         ]);
         setTelemetry({ ddss: d, smartmed: s, rosaflora: r });
       } catch (e) {
