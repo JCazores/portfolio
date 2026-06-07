@@ -187,9 +187,10 @@ function App() {
                     <span className="text-[#38BDF8] font-mono text-sm font-bold">{telemetry.ddss.count} Profiles Evaluated</span>
                   </div>
                 </div>
-                <a href="https://github.com/JCazores/ddss" target="_blank" rel="noopener noreferrer"
+                <a href="https://ddss-production.up.railway.app
+" target="_blank" rel="noopener noreferrer"
                   className="w-full text-center py-2 text-xs font-mono border border-[#38BDF8]/20 text-[#94A3B8] rounded-lg hover:border-[#38BDF8]/60 hover:text-[#38BDF8] transition-colors">
-                  View on GitHub →
+                  View Project →
                 </a>
               </div>
             </div>
@@ -217,9 +218,9 @@ function App() {
                     <span className="text-emerald-400 font-mono text-sm font-bold">{telemetry.smartmed.count} Patient Records</span>
                   </div>
                 </div>
-                <a href="https://github.com/JCazores/smartmed" target="_blank" rel="noopener noreferrer"
+                <a href="https://smartmed-production-5c92.up.railway.app" target="_blank" rel="noopener noreferrer"
                   className="w-full text-center py-2 text-xs font-mono border border-emerald-500/20 text-[#94A3B8] rounded-lg hover:border-emerald-500/60 hover:text-emerald-400 transition-colors">
-                  View on GitHub →
+                  View Project →
                 </a>
               </div>
             </div>
@@ -247,9 +248,9 @@ function App() {
                     <span className="text-pink-400 font-mono text-sm font-bold">{telemetry.rosaflora.count} Active Reservations</span>
                   </div>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/rosaflora-repo" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/JCazores/onlinebeautyparlor" target="_blank" rel="noopener noreferrer"
                   className="w-full text-center py-2 text-xs font-mono border border-pink-500/20 text-[#94A3B8] rounded-lg hover:border-pink-500/60 hover:text-pink-400 transition-colors">
-                  View on GitHub →
+                  View Project →
                 </a>
               </div>
             </div>
@@ -366,7 +367,7 @@ function App() {
                 <h3 className="text-[#38BDF8] font-mono text-sm tracking-widest uppercase mb-4">Socials</h3>
                 <div className="flex gap-3">
                   <a href="https://github.com/JCazores" target="_blank" rel="noopener noreferrer"
-                    className="px-4 py-2 text-xs font-mono border border-[#38BDF8]/20 text-[git --version#94A3B8] rounded-lg hover:border-[#38BDF8]/60 hover:text-[#38BDF8] transition-colors">GitHub</a>
+                    className="px-4 py-2 text-xs font-mono border border-[#38BDF8]/20 text-[#94A3B8] rounded-lg hover:border-[#38BDF8]/60 hover:text-[#38BDF8] transition-colors">GitHub</a>
                   <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer"
                     className="px-4 py-2 text-xs font-mono border border-[#38BDF8]/20 text-[#94A3B8] rounded-lg hover:border-[#38BDF8]/60 hover:text-[#38BDF8] transition-colors">LinkedIn</a>
                   <a href="https://facebook.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer"
