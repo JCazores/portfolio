@@ -163,6 +163,36 @@ function App() {
             <h2 className="text-3xl md:text-5xl font-bold">Projects</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            {/* SentinelFlow */}
+<div className="group relative bg-[#0F1624] border border-[#38BDF8]/10 rounded-2xl p-6 hover:border-[#38BDF8]/40 transition-all duration-300 hover:scale-[1.02] flex flex-col justify-between">
+  <div>
+    <div className="flex items-center justify-between mb-4">
+      <span className="px-3 py-1 text-xs font-mono bg-purple-500/10 text-purple-400 rounded-full border border-purple-500/20">OJT Project</span>
+      <span className="text-purple-400 text-xl">🛡️</span>
+    </div>
+    <h3 className="text-xl font-bold mb-2">SentinelFlow</h3>
+    <p className="text-[#94A3B8] text-sm leading-relaxed mb-4">Integrated security monitoring and vulnerability assessment platform with automated web, network, and mobile penetration testing, uptime monitoring, and real-time remediation guidance.</p>
+    <div className="flex flex-wrap gap-2 mb-6">
+      {['Security', 'Pentesting', 'Monitoring', 'Laravel'].map((t) => (
+        <span key={t} className="px-2 py-1 text-xs font-mono bg-[#090D16] text-[#94A3B8] rounded border border-white/5">{t}</span>
+      ))}
+    </div>
+  </div>
+  <div className="border-t border-white/5 pt-4 flex flex-col gap-3">
+    <div className="flex items-center justify-between">
+      <span className="text-xs text-[#94A3B8] font-mono">Live Platform</span>
+      <div className="flex items-center gap-2">
+        <div className="w-2 h-2 rounded-full animate-pulse bg-purple-400"></div>
+        <span className="text-purple-400 font-mono text-sm font-bold">Online</span>
+      </div>
+    </div>
+    <a href="https://165.245.180.57/" target="_blank" rel="noopener noreferrer"
+      className="w-full text-center py-2 text-xs font-mono border border-purple-500/20 text-[#94A3B8] rounded-lg hover:border-purple-500/60 hover:text-purple-400 transition-colors">
+      View Project →
+    </a>
+  </div>
+</div>
 
             {/* DDSS */}
             <div className="group relative bg-[#0F1624] border border-[#38BDF8]/10 rounded-2xl p-6 hover:border-[#38BDF8]/40 transition-all duration-300 hover:scale-[1.02] flex flex-col justify-between">
